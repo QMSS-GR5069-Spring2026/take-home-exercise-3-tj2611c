@@ -1,0 +1,8 @@
+
+Best Model Selection
+
+I selected run 4 as the best model because it achieved the lowest RMSE and one of the strongest overall error profiles across all experiments.
+The best run used n_estimators=500, max_depth=5, min_samples_split=2, and min_samples_leaf=1.
+Its performance was MAE=1.0557, MSE=4.7693, RMSE=2.1839, and R2=0.7533.
+I selected this run because lower MAE, MSE, and RMSE indicate better prediction accuracy, while a higher R2 shows that the model explains more variation in race points.
+Compared with the other runs, this model provided the best balance between accuracy and generalization on the test set.
